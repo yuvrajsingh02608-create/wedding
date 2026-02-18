@@ -30,8 +30,8 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Kashish & Partner | We're Getting Married!",
-  description: "Join us in celebrating our love story. February 16, 2026.",
+  title: "Shubham & Varsha | We're Getting Married!",
+  description: "Join us in celebrating our love story. March 07, 2026.",
 };
 
 export default function RootLayout({
