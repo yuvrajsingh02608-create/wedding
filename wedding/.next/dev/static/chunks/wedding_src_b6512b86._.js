@@ -1,0 +1,3884 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/wedding/src/components/sections/Hero.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Hero
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/value/use-scroll.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/value/use-transform.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/sparkles.js [app-client] (ecmascript) <export default as Sparkles>");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+function Hero() {
+    _s();
+    const containerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const { scrollYProgress } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useScroll"])({
+        target: containerRef,
+        offset: [
+            "start start",
+            "end start"
+        ]
+    });
+    const opacity = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTransform"])(scrollYProgress, [
+        0,
+        1
+    ], [
+        1,
+        0
+    ]);
+    const names = "Shubham & Varsha";
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        ref: containerRef,
+        className: "relative h-screen w-full overflow-hidden bg-[linear-gradient(135deg,#fdfbf9_0%,#f5f1ed_100%)]",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 pointer-events-none opacity-[0.05]",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute top-0 right-0 w-[600px] h-[600px] -translate-y-1/4 translate-x-1/4 animate-slow-rotate",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(MandalaSVG, {}, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                            lineNumber: 27,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                        lineNumber: 26,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute bottom-0 left-0 w-[400px] h-[400px] translate-y-1/4 -translate-x-1/4 animate-slow-rotate",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(MandalaSVG, {}, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                            lineNumber: 30,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                        lineNumber: 29,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                lineNumber: 25,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 pointer-events-none",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute top-1/4 right-1/4 w-32 h-32 border border-[#c5a29333] rounded-full animate-gentle-float",
+                        style: {
+                            animationDelay: '0s'
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                        lineNumber: 36,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute bottom-1/4 left-1/3 w-48 h-48 border border-[#c5a29333] rounded-full animate-gentle-float",
+                        style: {
+                            animationDelay: '2s'
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                        lineNumber: 37,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute top-1/2 right-0 w-24 h-24 border border-[#c5a29333] rounded-full animate-gentle-float",
+                        style: {
+                            animationDelay: '4s'
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                        lineNumber: 38,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                lineNumber: 35,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SparkleParticles, {}, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                lineNumber: 42,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 pointer-events-none hidden md:block",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CornerOrnament, {
+                        className: "absolute top-8 left-8 rotate-0"
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                        lineNumber: 46,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CornerOrnament, {
+                        className: "absolute top-8 right-8 rotate-90"
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                        lineNumber: 47,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CornerOrnament, {
+                        className: "absolute bottom-8 right-8 rotate-180"
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                        lineNumber: 48,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CornerOrnament, {
+                        className: "absolute bottom-8 left-8 -rotate-90"
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                        lineNumber: 49,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                lineNumber: 45,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                style: {
+                    opacity
+                },
+                className: "relative z-10 flex h-full flex-col items-center justify-center px-4 text-center",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                        initial: {
+                            opacity: 0,
+                            scale: 0.9
+                        },
+                        animate: {
+                            opacity: 1,
+                            scale: 1
+                        },
+                        transition: {
+                            duration: 1.5
+                        },
+                        className: "mb-6",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "font-accent text-sm tracking-[0.4em] text-royal-gold uppercase mb-4 block",
+                                children: "A Royal Celebration"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                                lineNumber: 63,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].h1, {
+                                className: "font-script text-7xl text-charcoal md:text-8xl lg:text-9xl mb-4",
+                                children: names
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                                lineNumber: 66,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                        lineNumber: 57,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].p, {
+                        initial: {
+                            opacity: 0,
+                            y: 20
+                        },
+                        animate: {
+                            opacity: 1,
+                            y: 0
+                        },
+                        transition: {
+                            duration: 1,
+                            delay: 0.8
+                        },
+                        className: "mb-8 font-display text-xl uppercase tracking-[0.2em] text-brown md:text-2xl",
+                        children: "We're Getting Married!"
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                        lineNumber: 73,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                        initial: {
+                            opacity: 0
+                        },
+                        animate: {
+                            opacity: 1
+                        },
+                        transition: {
+                            duration: 1,
+                            delay: 1.2
+                        },
+                        className: "flex flex-col items-center",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mb-2 h-px w-24 bg-royal-gold/40"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                                lineNumber: 88,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "font-body text-lg font-medium tracking-widest text-charcoal",
+                                children: "MARCH 07, 2026"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                                lineNumber: 89,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-2 h-px w-24 bg-royal-gold/40"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                                lineNumber: 92,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                        lineNumber: 82,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                        initial: {
+                            opacity: 0,
+                            y: 20
+                        },
+                        animate: {
+                            opacity: 1,
+                            y: 0
+                        },
+                        transition: {
+                            delay: 1.5,
+                            duration: 1
+                        },
+                        className: "flex flex-col md:flex-row gap-6 mt-12",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "/invitation",
+                                className: "inline-block",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+                                    whileHover: {
+                                        scale: 1.05
+                                    },
+                                    whileTap: {
+                                        scale: 0.95
+                                    },
+                                    className: "px-10 py-4 bg-gradient-to-r from-royal-gold to-deep-royal-gold text-white rounded-full font-body text-sm tracking-[0.2em] shadow-[0_10px_30px_rgba(212,163,115,0.3)] hover:shadow-[0_15px_40px_rgba(212,163,115,0.4)] transition-all flex items-center gap-2",
+                                    children: [
+                                        "VIEW LIVE INVITE ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__["Sparkles"], {
+                                            className: "h-4 w-4"
+                                        }, void 0, false, {
+                                            fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                                            lineNumber: 107,
+                                            columnNumber: 46
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                                    lineNumber: 102,
+                                    columnNumber: 25
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                                lineNumber: 101,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+                                whileHover: {
+                                    scale: 1.05
+                                },
+                                whileTap: {
+                                    scale: 0.95
+                                },
+                                onClick: ()=>document.getElementById('rsvp')?.scrollIntoView({
+                                        behavior: 'smooth'
+                                    }),
+                                className: "px-10 py-4 bg-white/50 backdrop-blur-md text-charcoal rounded-full font-body text-sm tracking-[0.2em] shadow-lg border border-royal-gold/20",
+                                children: "RSVP NOW"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                                lineNumber: 110,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                        lineNumber: 95,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                        initial: {
+                            opacity: 0
+                        },
+                        animate: {
+                            opacity: 1
+                        },
+                        transition: {
+                            duration: 1,
+                            delay: 2
+                        },
+                        className: "absolute bottom-10 left-1/2 -translate-x-1/2",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                            animate: {
+                                y: [
+                                    0,
+                                    10,
+                                    0
+                                ]
+                            },
+                            transition: {
+                                duration: 2,
+                                repeat: Infinity,
+                                ease: "easeInOut"
+                            },
+                            className: "flex flex-col items-center gap-2",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "font-accent text-sm tracking-widest text-brown/60 uppercase",
+                                    children: "SCROLL"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                                    lineNumber: 132,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "h-12 w-[1px] bg-gradient-to-b from-royal-gold/40 to-transparent"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                                    lineNumber: 133,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                            lineNumber: 127,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                        lineNumber: 121,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                lineNumber: 53,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+        lineNumber: 20,
+        columnNumber: 9
+    }, this);
+}
+_s(Hero, "fTAgvoPNULqISzXTiafkT3EGkZY=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useScroll"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTransform"]
+    ];
+});
+_c = Hero;
+function MandalaSVG() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+        viewBox: "0 0 200 200",
+        xmlns: "http://www.w3.org/2000/svg",
+        className: "w-full h-full fill-none stroke-royal-gold/30 stroke-[0.5]",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                cx: "100",
+                cy: "100",
+                r: "90"
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                lineNumber: 144,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                cx: "100",
+                cy: "100",
+                r: "70"
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                lineNumber: 145,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                cx: "100",
+                cy: "100",
+                r: "50"
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                lineNumber: 146,
+                columnNumber: 13
+            }, this),
+            Array.from({
+                length: 12
+            }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M100 10 L110 30 L90 30 Z",
+                    transform: `rotate(${i * 30} 100 100)`
+                }, i, false, {
+                    fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                    lineNumber: 148,
+                    columnNumber: 17
+                }, this)),
+            Array.from({
+                length: 24
+            }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                    cx: "100",
+                    cy: "25",
+                    r: "2",
+                    transform: `rotate(${i * 15} 100 100)`
+                }, i, false, {
+                    fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                    lineNumber: 155,
+                    columnNumber: 17
+                }, this))
+        ]
+    }, void 0, true, {
+        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+        lineNumber: 143,
+        columnNumber: 9
+    }, this);
+}
+_c1 = MandalaSVG;
+function CornerOrnament({ className = "" }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: `w-32 h-32 text-royal-gold/20 flex items-center justify-center text-4xl font-serif ${className}`,
+        children: "❦"
+    }, void 0, false, {
+        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+        lineNumber: 169,
+        columnNumber: 9
+    }, this);
+}
+_c2 = CornerOrnament;
+function SparkleParticles() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "absolute inset-0 pointer-events-none",
+        children: Array.from({
+            length: 15
+        }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                className: "absolute w-1 h-1 bg-royal-gold/40 rounded-full blur-[1px] animate-twinkle",
+                style: {
+                    top: `${Math.random() * 100}%`,
+                    left: `${Math.random() * 100}%`,
+                    animationDelay: `${Math.random() * 3}s`
+                }
+            }, i, false, {
+                fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+                lineNumber: 179,
+                columnNumber: 17
+            }, this))
+    }, void 0, false, {
+        fileName: "[project]/wedding/src/components/sections/Hero.tsx",
+        lineNumber: 177,
+        columnNumber: 9
+    }, this);
+}
+_c3 = SparkleParticles;
+var _c, _c1, _c2, _c3;
+__turbopack_context__.k.register(_c, "Hero");
+__turbopack_context__.k.register(_c1, "MandalaSVG");
+__turbopack_context__.k.register(_c2, "CornerOrnament");
+__turbopack_context__.k.register(_c3, "SparkleParticles");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/wedding/src/components/sections/Invitation.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Invitation
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/heart.js [app-client] (ecmascript) <export default as Heart>");
+"use client";
+;
+;
+;
+function Invitation() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "relative py-24 overflow-hidden bg-[#faf8f6]",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 pointer-events-none opacity-40",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "absolute top-0 left-0 w-full h-full",
+                    style: {
+                        background: `
+                            radial-gradient(circle at 30% 20%, rgba(252, 234, 220, 0.4), transparent 60%),
+                            radial-gradient(circle at 70% 80%, rgba(245, 222, 197, 0.3), transparent 60%)
+                        `
+                    }
+                }, void 0, false, {
+                    fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                    lineNumber: 12,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                lineNumber: 11,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.02]",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: "text-[40rem] font-serif select-none",
+                    children: "ॐ"
+                }, void 0, false, {
+                    fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                    lineNumber: 25,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                lineNumber: 24,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute top-0 left-0 w-full h-4 bg-[url('/assets/floral-border.svg')] bg-repeat-x opacity-20"
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                lineNumber: 29,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute bottom-0 left-0 w-full h-4 bg-[url('/assets/floral-border.svg')] bg-repeat-x opacity-20 rotate-180"
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                lineNumber: 30,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "container mx-auto px-4 relative z-10",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                    initial: {
+                        opacity: 0,
+                        y: 30
+                    },
+                    whileInView: {
+                        opacity: 1,
+                        y: 0
+                    },
+                    viewport: {
+                        once: true
+                    },
+                    transition: {
+                        duration: 1
+                    },
+                    className: "max-w-3xl mx-auto shadow-[0_20px_50px_rgba(0,0,0,0.05)] bg-[url('https://www.transparenttextures.com/patterns/paper-fibers.png')] bg-white p-12 md:p-20 text-center relative border border-royal-gold/10",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "absolute inset-4 border border-royal-gold/20 pointer-events-none"
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                            lineNumber: 41,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "font-accent text-royal-gold text-lg mb-6 block italic",
+                            children: "The Wedding Invitation"
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                            lineNumber: 43,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "font-script text-5xl md:text-6xl text-charcoal mb-8",
+                            children: "Save Our Date"
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                            lineNumber: 47,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex justify-center items-center gap-4 mb-10 text-royal-gold/60",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "h-px w-12 bg-current"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                                    lineNumber: 52,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
+                                    className: "w-5 h-5 fill-current"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                                    lineNumber: 53,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "h-px w-12 bg-current"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                                    lineNumber: 54,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                            lineNumber: 51,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "font-display text-xl md:text-2xl text-brown mb-12 leading-relaxed tracking-wide",
+                            children: "WE ARE CELEBRATING THE BEGINNING OF OUR NEW JOURNEY AND YOUR PRESENCE WOULD MEAN THE WORLD TO US."
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                            lineNumber: 57,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "space-y-4 font-body",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "text-royal-gold font-bold tracking-[0.3em] uppercase text-sm mb-2",
+                                    children: "Saturday"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                                    lineNumber: 62,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "text-4xl md:text-5xl font-display text-charcoal tracking-tighter",
+                                    children: "MARCH 07, 2026"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                                    lineNumber: 65,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "text-brown tracking-widest uppercase text-sm mt-2",
+                                    children: "Lucknow, Uttar Pradesh"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                                    lineNumber: 68,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                            lineNumber: 61,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "mt-16 flex flex-col items-center",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "w-16 h-16 border border-royal-gold/30 rounded-full flex items-center justify-center mb-4",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "font-script text-2xl text-royal-gold",
+                                        children: "S&V"
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                                        lineNumber: 75,
+                                        columnNumber: 29
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                                    lineNumber: 74,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "h-20 w-[1px] bg-gradient-to-b from-royal-gold/30 to-transparent"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                                    lineNumber: 77,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                            lineNumber: 73,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                    lineNumber: 33,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+                lineNumber: 32,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/wedding/src/components/sections/Invitation.tsx",
+        lineNumber: 9,
+        columnNumber: 9
+    }, this);
+}
+_c = Invitation;
+var _c;
+__turbopack_context__.k.register(_c, "Invitation");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/wedding/src/components/sections/Timeline.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Timeline
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/value/use-scroll.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$spring$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/value/use-spring.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/image.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/heart.js [app-client] (ecmascript) <export default as Heart>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$rose$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Rose$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/rose.js [app-client] (ecmascript) <export default as Rose>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/calendar.js [app-client] (ecmascript) <export default as Calendar>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-client] (ecmascript) <export default as MapPin>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/sparkles.js [app-client] (ecmascript) <export default as Sparkles>");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+;
+const milestones = [
+    {
+        year: "2018",
+        title: "First Met",
+        description: "It was a sunny day in college when our eyes first met across the library. Little did we know...",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__["Sparkles"], {
+            className: "h-6 w-6"
+        }, void 0, false, {
+            fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+            lineNumber: 13,
+            columnNumber: 15
+        }, ("TURBOPACK compile-time value", void 0)),
+        image: "https://images.unsplash.com/photo-1523240715639-99f840e4f88e?q=80&w=2070&auto=format&fit=crop"
+    },
+    {
+        year: "2019",
+        title: "First Date",
+        description: "Our first date at the coffee shop where we talked for hours and lost track of time...",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$rose$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Rose$3e$__["Rose"], {
+            className: "h-6 w-6"
+        }, void 0, false, {
+            fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+            lineNumber: 20,
+            columnNumber: 15
+        }, ("TURBOPACK compile-time value", void 0)),
+        image: "https://images.unsplash.com/photo-1494548162494-384bba4ab999?q=80&w=2080&auto=format&fit=crop"
+    },
+    {
+        year: "2021",
+        title: "Made It Official",
+        description: "Under the stars, we promised to walk together through life's beautiful journey...",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
+            className: "h-6 w-6"
+        }, void 0, false, {
+            fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+            lineNumber: 27,
+            columnNumber: 15
+        }, ("TURBOPACK compile-time value", void 0)),
+        image: "https://images.unsplash.com/photo-1518196775791-2e1240159641?q=80&w=2070&auto=format&fit=crop"
+    },
+    {
+        year: "2024",
+        title: "The Proposal",
+        description: "On a beach at sunset, one knee down, one beautiful \"Yes!\"...",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__["Sparkles"], {
+            className: "h-6 w-6 text-gold"
+        }, void 0, false, {
+            fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+            lineNumber: 34,
+            columnNumber: 15
+        }, ("TURBOPACK compile-time value", void 0)),
+        image: "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=2070&auto=format&fit=crop"
+    },
+    {
+        year: "2026",
+        title: "Our Wedding Day",
+        description: "And now, we invite you to celebrate the beginning of our forever...",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
+            className: "h-6 w-6 text-rose-gold"
+        }, void 0, false, {
+            fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+            lineNumber: 41,
+            columnNumber: 15
+        }, ("TURBOPACK compile-time value", void 0)),
+        image: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop"
+    }
+];
+function Timeline() {
+    _s();
+    const containerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const { scrollYProgress } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useScroll"])({
+        target: containerRef,
+        offset: [
+            "start center",
+            "end center"
+        ]
+    });
+    const scaleY = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$spring$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSpring"])(scrollYProgress, {
+        stiffness: 100,
+        damping: 30,
+        restDelta: 0.001
+    });
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        ref: containerRef,
+        className: "relative py-24 px-4 overflow-hidden bg-[#faf8f6]",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 pointer-events-none opacity-[0.04] bg-[url('https://www.transparenttextures.com/patterns/natural-paper.png')]"
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                lineNumber: 62,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FloatingPetals, {}, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                lineNumber: 65,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-6xl mx-auto relative z-10",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                        initial: {
+                            opacity: 0,
+                            y: 20
+                        },
+                        whileInView: {
+                            opacity: 1,
+                            y: 0
+                        },
+                        viewport: {
+                            once: true
+                        },
+                        className: "text-center mb-20",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "font-accent text-royal-gold uppercase tracking-[0.3em] text-sm mb-4 block",
+                                children: "Our Journey"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                lineNumber: 74,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "font-script text-6xl text-charcoal mb-4",
+                                children: "Our Love Story"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                lineNumber: 75,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "h-px w-24 bg-royal-gold/40 mx-auto"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                lineNumber: 76,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                        lineNumber: 68,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                style: {
+                                    scaleY,
+                                    transformOrigin: "top"
+                                },
+                                className: "absolute left-1/2 top-0 h-full w-0.5 bg-royal-gold/20 -translate-x-1/2 hidden md:block"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                lineNumber: 81,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "space-y-24",
+                                children: milestones.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].Fragment, {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(TimelineItem, {
+                                                item: item,
+                                                index: index,
+                                                isFeatured: index === milestones.length - 1
+                                            }, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                                lineNumber: 89,
+                                                columnNumber: 33
+                                            }, this),
+                                            index < milestones.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "hidden md:flex justify-center my-8 opacity-20 text-royal-gold",
+                                                children: "━━━ ❦ ━━━"
+                                            }, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                                lineNumber: 91,
+                                                columnNumber: 37
+                                            }, this)
+                                        ]
+                                    }, index, true, {
+                                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                        lineNumber: 88,
+                                        columnNumber: 29
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                lineNumber: 86,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                        lineNumber: 79,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                lineNumber: 67,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+        lineNumber: 60,
+        columnNumber: 9
+    }, this);
+}
+_s(Timeline, "6oTLJlCxQvaR7kPt6DwQoiNmnMg=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useScroll"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$spring$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSpring"]
+    ];
+});
+_c = Timeline;
+function TimelineItem({ item, index, isFeatured = false }) {
+    const isEven = index % 2 === 0;
+    if (isFeatured) {
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "relative flex justify-center w-full",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                initial: {
+                    opacity: 0,
+                    scale: 0.9
+                },
+                whileInView: {
+                    opacity: 1,
+                    scale: 1
+                },
+                viewport: {
+                    once: true
+                },
+                transition: {
+                    duration: 1
+                },
+                className: "w-full md:w-8/12 bg-gradient-to-br from-[#8b6f47] to-[#6d5d4b] p-1 rounded-[2rem] shadow-2xl relative overflow-hidden",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute inset-0 pointer-events-none",
+                        children: Array.from({
+                            length: 10
+                        }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                className: "absolute w-1 h-1 bg-white/20 rounded-full",
+                                animate: {
+                                    y: [
+                                        0,
+                                        -100,
+                                        0
+                                    ],
+                                    x: [
+                                        0,
+                                        (Math.random() - 0.5) * 50,
+                                        0
+                                    ],
+                                    opacity: [
+                                        0,
+                                        0.5,
+                                        0
+                                    ]
+                                },
+                                transition: {
+                                    duration: 5 + Math.random() * 5,
+                                    repeat: Infinity,
+                                    delay: Math.random() * 5
+                                },
+                                style: {
+                                    bottom: `${Math.random() * 20}%`,
+                                    left: `${Math.random() * 100}%`
+                                }
+                            }, i, false, {
+                                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                lineNumber: 120,
+                                columnNumber: 29
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                        lineNumber: 118,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "bg-gradient-to-br from-[#8b6f47] to-[#6d5d4b] p-10 md:p-16 rounded-[1.9rem] flex flex-col md:flex-row items-center gap-12 relative z-10",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "w-full md:w-1/2",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "font-display text-royal-gold text-2xl mb-4 block tracking-widest",
+                                        children: item.year
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                        lineNumber: 143,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "font-display text-4xl md:text-5xl text-white mb-6 uppercase tracking-wider",
+                                        children: item.title
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                        lineNumber: 144,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "font-body text-white/80 leading-relaxed text-lg mb-8",
+                                        children: item.description
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                        lineNumber: 145,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex items-center gap-4 text-royal-gold",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                                                className: "h-5 w-5"
+                                            }, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                                lineNumber: 147,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "font-accent tracking-widest",
+                                                children: "Lucknow, UP"
+                                            }, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                                lineNumber: 148,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                        lineNumber: 146,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                lineNumber: 142,
+                                columnNumber: 25
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "w-full md:w-1/2 relative h-[300px] overflow-hidden rounded-2xl border border-white/10 shadow-inner",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: item.image,
+                                        alt: item.title,
+                                        fill: true,
+                                        className: "object-cover"
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                        lineNumber: 152,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                        lineNumber: 158,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                lineNumber: 151,
+                                columnNumber: 25
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                        lineNumber: 141,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute top-4 left-4 text-white/10 text-4xl",
+                        children: "✤"
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                        lineNumber: 163,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute top-4 right-4 text-white/10 text-4xl",
+                        children: "✤"
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                        lineNumber: 164,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute bottom-4 right-4 text-white/10 text-4xl",
+                        children: "✤"
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                        lineNumber: 165,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute bottom-4 left-4 text-white/10 text-4xl",
+                        children: "✤"
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                        lineNumber: 166,
+                        columnNumber: 21
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                lineNumber: 110,
+                columnNumber: 17
+            }, this)
+        }, void 0, false, {
+            fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+            lineNumber: 109,
+            columnNumber: 13
+        }, this);
+    }
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: `relative flex flex-col md:flex-row items-center ${isEven ? "md:flex-row-reverse" : ""}`,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute left-1/2 top-0 -translate-x-1/2 z-20 hidden md:block",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                    initial: {
+                        scale: 0
+                    },
+                    whileInView: {
+                        scale: 1
+                    },
+                    viewport: {
+                        once: true
+                    },
+                    className: "w-12 h-12 rounded-full bg-white border border-royal-gold/30 flex items-center justify-center text-royal-gold shadow-md",
+                    children: item.icon
+                }, void 0, false, {
+                    fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                    lineNumber: 176,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                lineNumber: 175,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                initial: {
+                    opacity: 0,
+                    x: isEven ? 50 : -50
+                },
+                whileInView: {
+                    opacity: 1,
+                    x: 0
+                },
+                viewport: {
+                    once: true,
+                    margin: "-100px"
+                },
+                transition: {
+                    duration: 0.8,
+                    ease: "easeOut"
+                },
+                className: `w-full md:w-5/12 ${isEven ? "md:pl-16" : "md:pr-16"} mb-8 md:mb-0`,
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: `p-10 rounded-3xl transition-all duration-500 border border-royal-gold/10 hover:shadow-2xl ${isEven ? 'bg-[#f8f5f1]' : 'bg-white'}`,
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "font-display text-royal-gold text-2xl mb-2 block tracking-widest",
+                            children: item.year
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                            lineNumber: 195,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                            className: "font-display text-3xl text-charcoal mb-4 uppercase tracking-tight",
+                            children: item.title
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                            lineNumber: 196,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "font-body text-brown/80 leading-relaxed mb-6 italic",
+                            children: item.description
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                            lineNumber: 197,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "relative h-64 w-full overflow-hidden rounded-2xl group border border-royal-gold/10",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                src: item.image,
+                                alt: item.title,
+                                fill: true,
+                                className: "object-cover transition-transform duration-1000 group-hover:scale-105"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                                lineNumber: 199,
+                                columnNumber: 25
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                            lineNumber: 198,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                    lineNumber: 194,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                lineNumber: 187,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "hidden md:block w-2/12"
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                lineNumber: 210,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+        lineNumber: 173,
+        columnNumber: 9
+    }, this);
+}
+_c1 = TimelineItem;
+function FloatingPetals() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "absolute inset-0 pointer-events-none overflow-hidden",
+        children: Array.from({
+            length: 8
+        }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                className: "absolute w-8 h-8 rounded-full opacity-20",
+                style: {
+                    backgroundColor: i % 2 === 0 ? '#f4a460' : '#d4a373',
+                    left: `${Math.random() * 100}%`,
+                    top: `${Math.random() * 100}%`,
+                    borderRadius: '30% 70% 70% 30% / 30% 30% 70% 70%'
+                },
+                animate: {
+                    y: [
+                        0,
+                        100,
+                        0
+                    ],
+                    x: [
+                        0,
+                        50,
+                        0
+                    ],
+                    rotate: [
+                        0,
+                        360
+                    ]
+                },
+                transition: {
+                    duration: 10 + Math.random() * 20,
+                    repeat: Infinity,
+                    ease: "linear"
+                }
+            }, i, false, {
+                fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+                lineNumber: 219,
+                columnNumber: 17
+            }, this))
+    }, void 0, false, {
+        fileName: "[project]/wedding/src/components/sections/Timeline.tsx",
+        lineNumber: 217,
+        columnNumber: 9
+    }, this);
+}
+_c2 = FloatingPetals;
+var _c, _c1, _c2;
+__turbopack_context__.k.register(_c, "Timeline");
+__turbopack_context__.k.register(_c1, "TimelineItem");
+__turbopack_context__.k.register(_c2, "FloatingPetals");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/wedding/src/components/sections/Gallery.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Gallery
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/image.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript) <export default as X>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/chevron-left.js [app-client] (ecmascript) <export default as ChevronLeft>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/chevron-right.js [app-client] (ecmascript) <export default as ChevronRight>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$maximize$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Maximize2$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/maximize-2.js [app-client] (ecmascript) <export default as Maximize2>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/heart.js [app-client] (ecmascript) <export default as Heart>");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+;
+const photos = [
+    "/assets/gallery/gallery-1.jpeg",
+    "/assets/gallery/gallery-2.jpeg",
+    "/assets/gallery/gallery-3.jpeg",
+    "/assets/gallery/gallery-4.jpeg",
+    "/assets/gallery/gallery-5.jpeg",
+    "/assets/gallery/gallery-1.jpeg",
+    "/assets/gallery/gallery-2.jpeg",
+    "/assets/gallery/gallery-3.jpeg",
+    "/assets/gallery/gallery-4.jpeg"
+];
+function Gallery() {
+    _s();
+    const [selectedImage, setSelectedImage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const prevImage = ()=>{
+        if (selectedImage !== null) {
+            setSelectedImage((selectedImage - 1 + photos.length) % photos.length);
+        }
+    };
+    const nextImage = ()=>{
+        if (selectedImage !== null) {
+            setSelectedImage((selectedImage + 1) % photos.length);
+        }
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "bg-[#f5f0eb] py-24 px-4 overflow-hidden relative",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 pointer-events-none opacity-[0.1]",
+                children: Array.from({
+                    length: 20
+                }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute text-royal-gold",
+                        style: {
+                            top: `${Math.random() * 100}%`,
+                            left: `${Math.random() * 100}%`,
+                            fontSize: `${Math.random() * 20 + 10}px`,
+                            transform: `rotate(${Math.random() * 360}deg)`
+                        },
+                        children: [
+                            '♥',
+                            '❀',
+                            '✿',
+                            '✦',
+                            '★'
+                        ][Math.floor(Math.random() * 5)]
+                    }, i, false, {
+                        fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                        lineNumber: 40,
+                        columnNumber: 21
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                lineNumber: 38,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-7xl mx-auto relative z-10",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                        initial: {
+                            opacity: 0,
+                            scale: 0.95
+                        },
+                        whileInView: {
+                            opacity: 1,
+                            scale: 1
+                        },
+                        viewport: {
+                            once: true
+                        },
+                        className: "text-center mb-16",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "font-accent text-royal-gold uppercase tracking-[0.3em] text-sm mb-4 block",
+                                children: "Our Moments"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                                lineNumber: 62,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "font-script text-6xl text-charcoal mb-4",
+                                children: "Captured Memories"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                                lineNumber: 63,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "font-accent text-xl text-brown italic",
+                                children: "Every picture tells a beautiful story"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                                lineNumber: 64,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                        lineNumber: 56,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "columns-1 sm:columns-2 lg:columns-3 gap-8 space-y-12 pb-12",
+                        children: photos.map((src, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ScrapbookPhoto, {
+                                src: src,
+                                index: index,
+                                onClick: ()=>setSelectedImage(index)
+                            }, index, false, {
+                                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                                lineNumber: 70,
+                                columnNumber: 25
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                        lineNumber: 68,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                lineNumber: 55,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+                children: selectedImage !== null && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                    initial: {
+                        opacity: 0
+                    },
+                    animate: {
+                        opacity: 1
+                    },
+                    exit: {
+                        opacity: 0
+                    },
+                    className: "fixed inset-0 z-[10000] flex items-center justify-center bg-black/95 backdrop-blur-xl px-4",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: ()=>setSelectedImage(null),
+                            className: "absolute top-8 right-8 text-white/70 hover:text-white transition-colors z-50",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
+                                className: "h-10 w-10"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                                lineNumber: 93,
+                                columnNumber: 29
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                            lineNumber: 89,
+                            columnNumber: 25
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: prevImage,
+                            className: "absolute left-4 top-1/2 -translate-y-1/2 text-white/50 hover:text-white transition-colors p-2 z-50",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {
+                                className: "h-12 w-12"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                                lineNumber: 100,
+                                columnNumber: 29
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                            lineNumber: 96,
+                            columnNumber: 25
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: nextImage,
+                            className: "absolute right-4 top-1/2 -translate-y-1/2 text-white/50 hover:text-white transition-colors p-2 z-50",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
+                                className: "h-12 w-12"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                                lineNumber: 107,
+                                columnNumber: 29
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                            lineNumber: 103,
+                            columnNumber: 25
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                            initial: {
+                                scale: 0.9,
+                                opacity: 0
+                            },
+                            animate: {
+                                scale: 1,
+                                opacity: 1
+                            },
+                            exit: {
+                                scale: 0.9,
+                                opacity: 0
+                            },
+                            className: "relative max-w-5xl max-h-[85vh] w-full h-full",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                src: photos[selectedImage],
+                                alt: "Selected Image",
+                                fill: true,
+                                className: "object-contain"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                                lineNumber: 117,
+                                columnNumber: 29
+                            }, this)
+                        }, selectedImage, false, {
+                            fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                            lineNumber: 110,
+                            columnNumber: 25
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "absolute bottom-10 left-1/2 -translate-x-1/2 text-white/70 font-display text-lg",
+                            children: [
+                                selectedImage + 1,
+                                " / ",
+                                photos.length
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                            lineNumber: 125,
+                            columnNumber: 25
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                    lineNumber: 83,
+                    columnNumber: 21
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                lineNumber: 81,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+        lineNumber: 36,
+        columnNumber: 9
+    }, this);
+}
+_s(Gallery, "gNHFCSJ3h3sH8HFrpxN7hUqoxHs=");
+_c = Gallery;
+function ScrapbookPhoto({ src, index, onClick }) {
+    const rotation = (index % 3 - 1) * 3; // -3, 0, 3 degrees
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+        initial: {
+            opacity: 0,
+            y: 20
+        },
+        whileInView: {
+            opacity: 1,
+            y: 0
+        },
+        viewport: {
+            once: true
+        },
+        transition: {
+            delay: index % 4 * 0.1,
+            duration: 0.8
+        },
+        whileHover: {
+            scale: 1.05,
+            rotate: 0,
+            zIndex: 50
+        },
+        className: "relative cursor-pointer",
+        style: {
+            rotate: rotation
+        },
+        onClick: onClick,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "bg-white p-4 pb-12 shadow-[5px_10px_30px_rgba(0,0,0,0.1)] border border-gray/5 relative group",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative aspect-[4/5] overflow-hidden mb-4 rounded-sm",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                src: src,
+                                alt: `Gallery image ${index + 1}`,
+                                fill: true,
+                                className: "object-cover"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                                lineNumber: 152,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-500"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                                lineNumber: 158,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                        lineNumber: 151,
+                        columnNumber: 17
+                    }, this),
+                    index % 4 === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute -top-4 left-1/2 -translate-x-1/2 w-24 h-8 bg-royal-gold/20 backdrop-blur-sm -rotate-2 mix-blend-multiply"
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                        lineNumber: 163,
+                        columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex justify-center items-center gap-2",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
+                                className: "w-4 h-4 text-dusty-rose/40"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                                lineNumber: 168,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "font-accent text-xs text-brown/40 tracking-widest uppercase",
+                                children: "Love"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                                lineNumber: 169,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                        lineNumber: 167,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                lineNumber: 150,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute top-0 right-0 w-8 h-8 opacity-0 group-hover:opacity-100 transition-opacity",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$maximize$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Maximize2$3e$__["Maximize2"], {
+                    className: "w-4 h-4 text-royal-gold m-2"
+                }, void 0, false, {
+                    fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                    lineNumber: 175,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+                lineNumber: 174,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/wedding/src/components/sections/Gallery.tsx",
+        lineNumber: 139,
+        columnNumber: 9
+    }, this);
+}
+_c1 = ScrapbookPhoto;
+var _c, _c1;
+__turbopack_context__.k.register(_c, "Gallery");
+__turbopack_context__.k.register(_c1, "ScrapbookPhoto");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/wedding/src/components/sections/StyleGuide.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>StyleGuide
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+"use client";
+;
+;
+const styles = [
+    {
+        title: "Sangeet",
+        description: "Embrace the vibrant colors! Think bright pinks, yellows, and oranges.",
+        dressCode: "Indo-Western / Traditional",
+        color: "linear-gradient(135deg, #FF6B6B, #FFD93D)",
+        pattern: "musical-notes"
+    },
+    {
+        title: "Wedding",
+        description: "Royal and Elegant. Pastel shades, golds, and ivory are preferred.",
+        dressCode: "Traditional / Formal",
+        color: "linear-gradient(135deg, #d4a373, #f4e4d7)",
+        pattern: "mandala"
+    },
+    {
+        title: "Reception",
+        description: "Modern Sophistication. Shine in your best evening wear.",
+        dressCode: "Black Tie / Formal Wear",
+        color: "linear-gradient(135deg, #1a1a1a, #6d5d4b)",
+        pattern: "geometric"
+    }
+];
+function StyleGuide() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "relative py-24 bg-[#faf7f5] overflow-hidden",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.03]",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(MandalaWatermark, {}, void 0, false, {
+                    fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                    lineNumber: 35,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                lineNumber: 34,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute top-0 left-0 w-full h-[4px] bg-royal-gold bg-[radial-gradient(circle,rgba(255,255,255,0.3)_1px,transparent_1px)] bg-[size:10px_10px]"
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                lineNumber: 39,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "container mx-auto px-4 relative z-10",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                        initial: {
+                            opacity: 0,
+                            y: 20
+                        },
+                        whileInView: {
+                            opacity: 1,
+                            y: 0
+                        },
+                        viewport: {
+                            once: true
+                        },
+                        className: "text-center mb-20",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "font-accent text-royal-gold uppercase tracking-[0.3em] text-sm mb-4 block",
+                                children: "What to Wear"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                lineNumber: 48,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "font-script text-6xl text-charcoal mb-4",
+                                children: "Style Guide"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                lineNumber: 49,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "h-px w-24 bg-royal-gold/40 mx-auto"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                lineNumber: 50,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                        lineNumber: 42,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto",
+                        children: styles.map((style, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                initial: {
+                                    opacity: 0,
+                                    scale: 0.9
+                                },
+                                whileInView: {
+                                    opacity: 1,
+                                    scale: 1
+                                },
+                                viewport: {
+                                    once: true
+                                },
+                                transition: {
+                                    delay: index * 0.2
+                                },
+                                whileHover: {
+                                    scale: 1.05,
+                                    y: -10
+                                },
+                                className: "bg-white p-8 rounded-[2rem] shadow-xl border border-royal-gold/5 relative group overflow-hidden",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "absolute inset-0 opacity-[0.03] group-hover:opacity-[0.08] transition-opacity",
+                                        children: [
+                                            style.pattern === 'mandala' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(MandalaTile, {}, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                                lineNumber: 66,
+                                                columnNumber: 65
+                                            }, this),
+                                            style.pattern === 'musical-notes' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PatternTile, {
+                                                char: "♪"
+                                            }, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                                lineNumber: 67,
+                                                columnNumber: 71
+                                            }, this),
+                                            style.pattern === 'geometric' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PatternTile, {
+                                                char: "◈"
+                                            }, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                                lineNumber: 68,
+                                                columnNumber: 67
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                        lineNumber: 65,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "relative z-10 text-center",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "w-20 h-20 rounded-full mx-auto mb-8 flex items-center justify-center shadow-inner group-hover:animate-pulse",
+                                                style: {
+                                                    background: style.color
+                                                },
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "text-white text-3xl",
+                                                    children: "👗"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                                    lineNumber: 76,
+                                                    columnNumber: 37
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                                lineNumber: 72,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                className: "font-display text-2xl text-charcoal mb-4 uppercase tracking-widest",
+                                                children: style.title
+                                            }, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                                lineNumber: 78,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "font-body text-brown/70 mb-6 italic",
+                                                children: style.description
+                                            }, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                                lineNumber: 79,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "pt-6 border-t border-royal-gold/10",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "text-xs uppercase tracking-[0.2em] text-royal-gold/60 block mb-2",
+                                                        children: "Dress Code"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                                        lineNumber: 81,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "font-display text-charcoal tracking-wide",
+                                                        children: style.dressCode
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                                        lineNumber: 82,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                                lineNumber: 80,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                        lineNumber: 71,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, index, true, {
+                                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                                lineNumber: 55,
+                                columnNumber: 25
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                        lineNumber: 53,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                lineNumber: 41,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+        lineNumber: 32,
+        columnNumber: 9
+    }, this);
+}
+_c = StyleGuide;
+function MandalaWatermark() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+        viewBox: "0 0 200 200",
+        className: "w-[800px] h-[800px] text-royal-gold fill-current",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                d: "M100 0 a100 100 0 0 0 0 200 a100 100 0 0 0 0 -200 M100 20 a80 80 0 0 1 0 160 a80 80 0 0 1 0 -160"
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                lineNumber: 96,
+                columnNumber: 13
+            }, this),
+            Array.from({
+                length: 16
+            }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M100 30 Q110 50 100 70 Q90 50 100 30",
+                    transform: `rotate(${i * 22.5} 100 100)`
+                }, i, false, {
+                    fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                    lineNumber: 98,
+                    columnNumber: 17
+                }, this))
+        ]
+    }, void 0, true, {
+        fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+        lineNumber: 95,
+        columnNumber: 9
+    }, this);
+}
+_c1 = MandalaWatermark;
+function MandalaTile() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "w-full h-full flex flex-wrap gap-4 p-4",
+        children: Array.from({
+            length: 16
+        }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-8 h-8 rounded-full border border-current opacity-20"
+            }, i, false, {
+                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                lineNumber: 112,
+                columnNumber: 17
+            }, this))
+    }, void 0, false, {
+        fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+        lineNumber: 110,
+        columnNumber: 9
+    }, this);
+}
+_c2 = MandalaTile;
+function PatternTile({ char }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "w-full h-full flex flex-wrap gap-8 p-4 items-center justify-center text-4xl",
+        children: Array.from({
+            length: 9
+        }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                className: "opacity-20",
+                children: char
+            }, i, false, {
+                fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+                lineNumber: 122,
+                columnNumber: 17
+            }, this))
+    }, void 0, false, {
+        fileName: "[project]/wedding/src/components/sections/StyleGuide.tsx",
+        lineNumber: 120,
+        columnNumber: 9
+    }, this);
+}
+_c3 = PatternTile;
+var _c, _c1, _c2, _c3;
+__turbopack_context__.k.register(_c, "StyleGuide");
+__turbopack_context__.k.register(_c1, "MandalaWatermark");
+__turbopack_context__.k.register(_c2, "MandalaTile");
+__turbopack_context__.k.register(_c3, "PatternTile");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/wedding/src/components/sections/Location.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Location
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/styled-jsx/style.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/map-pin.js [app-client] (ecmascript) <export default as MapPin>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Navigation$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/navigation.js [app-client] (ecmascript) <export default as Navigation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/compass.js [app-client] (ecmascript) <export default as Compass>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/arrow-up-right.js [app-client] (ecmascript) <export default as ArrowUpRight>");
+"use client";
+;
+;
+;
+;
+function Location() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        id: "location",
+        className: "jsx-5d9163581f00a3e3" + " " + "relative py-24 bg-[#f8f5f1] overflow-hidden",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "jsx-5d9163581f00a3e3" + " " + "absolute top-10 right-10 w-64 h-64 opacity-[0.08] pointer-events-none text-royal-gold",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$compass$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Compass$3e$__["Compass"], {
+                    className: "w-full h-full animate-slow-rotate",
+                    strokeWidth: 0.5
+                }, void 0, false, {
+                    fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                    lineNumber: 12,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                lineNumber: 11,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "jsx-5d9163581f00a3e3" + " " + "absolute inset-0 flex items-center justify-center opacity-[0.04] pointer-events-none text-brown",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                    className: "w-[500px] h-[500px]",
+                    strokeWidth: 0.5
+                }, void 0, false, {
+                    fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                    lineNumber: 17,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                lineNumber: 16,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                className: "jsx-5d9163581f00a3e3" + " " + "absolute inset-0 w-full h-full pointer-events-none opacity-[0.3]",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M 100 100 Q 300 150 500 100 T 900 150",
+                    fill: "none",
+                    stroke: "var(--royal-gold)",
+                    strokeWidth: "2",
+                    strokeDasharray: "5,10",
+                    className: "jsx-5d9163581f00a3e3" + " " + "animate-[dash_20s_linear_infinite]"
+                }, void 0, false, {
+                    fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                    lineNumber: 22,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                lineNumber: 21,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "jsx-5d9163581f00a3e3" + " " + "container mx-auto px-4 relative z-10",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                        initial: {
+                            opacity: 0,
+                            y: 20
+                        },
+                        whileInView: {
+                            opacity: 1,
+                            y: 0
+                        },
+                        viewport: {
+                            once: true
+                        },
+                        className: "text-center mb-16",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "jsx-5d9163581f00a3e3" + " " + "font-accent text-royal-gold uppercase tracking-[0.3em] text-sm mb-4 block",
+                                children: "The Venue"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                lineNumber: 39,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "jsx-5d9163581f00a3e3" + " " + "font-script text-6xl text-charcoal mb-4",
+                                children: "Location"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                lineNumber: 40,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-5d9163581f00a3e3" + " " + "h-px w-24 bg-royal-gold/40 mx-auto"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                lineNumber: 41,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                        lineNumber: 33,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "jsx-5d9163581f00a3e3" + " " + "max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                initial: {
+                                    opacity: 0,
+                                    x: -30
+                                },
+                                whileInView: {
+                                    opacity: 1,
+                                    x: 0
+                                },
+                                viewport: {
+                                    once: true
+                                },
+                                className: "bg-white/40 backdrop-blur-md p-10 md:p-16 rounded-[2rem] border border-royal-gold/10 shadow-xl",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Navigation$3e$__["Navigation"], {
+                                        className: "w-12 h-12 text-royal-gold mb-8",
+                                        strokeWidth: 1
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                        lineNumber: 52,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "jsx-5d9163581f00a3e3" + " " + "font-display text-4xl text-charcoal mb-6 uppercase tracking-tight",
+                                        children: "Nakshatra 2.0"
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                        lineNumber: 53,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "jsx-5d9163581f00a3e3" + " " + "font-body text-xl text-brown/80 mb-8 leading-relaxed",
+                                        children: "A royal setting for a royal celebration. Located in the heart of Lucknow, Nakshatra 2.0 provides an exquisite backdrop for our wedding vows."
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                        lineNumber: 54,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-5d9163581f00a3e3" + " " + "space-y-6 mb-10",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "jsx-5d9163581f00a3e3" + " " + "flex items-start gap-4",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "jsx-5d9163581f00a3e3" + " " + "w-10 h-10 rounded-full border border-royal-gold/20 flex items-center justify-center shrink-0",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                                                        className: "w-5 h-5 text-royal-gold"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                                        lineNumber: 61,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                                    lineNumber: 60,
+                                                    columnNumber: 33
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "jsx-5d9163581f00a3e3" + " " + "font-body text-brown text-lg",
+                                                    children: "CP 117, Viraj Khand-4, Viraj Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                                    lineNumber: 63,
+                                                    columnNumber: 33
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                            lineNumber: 59,
+                                            columnNumber: 29
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                        lineNumber: 58,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: "https://maps.app.goo.gl/YourMapLink",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        className: "jsx-5d9163581f00a3e3" + " " + "inline-flex items-center gap-3 px-8 py-4 bg-charcoal text-white rounded-full font-body text-sm tracking-widest hover:bg-brown transition-colors group",
+                                        children: [
+                                            "GET DIRECTIONS ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpRight$3e$__["ArrowUpRight"], {
+                                                className: "w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"
+                                            }, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                                lineNumber: 75,
+                                                columnNumber: 44
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                        lineNumber: 69,
+                                        columnNumber: 25
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                lineNumber: 46,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                initial: {
+                                    opacity: 0,
+                                    x: 30
+                                },
+                                whileInView: {
+                                    opacity: 1,
+                                    x: 0
+                                },
+                                viewport: {
+                                    once: true
+                                },
+                                className: "relative group h-[500px] w-full",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-5d9163581f00a3e3" + " " + "absolute -top-4 -left-4 w-12 h-12 border-t-2 border-l-2 border-royal-gold/40 pointer-events-none"
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                        lineNumber: 87,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-5d9163581f00a3e3" + " " + "absolute -top-4 -right-4 w-12 h-12 border-t-2 border-r-2 border-royal-gold/40 pointer-events-none"
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                        lineNumber: 88,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-5d9163581f00a3e3" + " " + "absolute -bottom-4 -left-4 w-12 h-12 border-b-2 border-l-2 border-royal-gold/40 pointer-events-none"
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                        lineNumber: 89,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-5d9163581f00a3e3" + " " + "absolute -bottom-4 -right-4 w-12 h-12 border-b-2 border-r-2 border-royal-gold/40 pointer-events-none"
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                        lineNumber: 90,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-5d9163581f00a3e3" + " " + "w-full h-full overflow-hidden rounded-2xl shadow-inner border-4 border-white relative",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
+                                                src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1779.6274488!2d81.0123456!3d26.8765432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDUyJzM1LjUiTiA4McKwMDAnNDQuNCJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin",
+                                                width: "100%",
+                                                height: "100%",
+                                                style: {
+                                                    border: 0,
+                                                    filter: 'grayscale(0.3) contrast(1.1) brightness(0.9)'
+                                                },
+                                                allowFullScreen: true,
+                                                loading: "lazy",
+                                                className: "jsx-5d9163581f00a3e3"
+                                            }, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                                lineNumber: 94,
+                                                columnNumber: 29
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-5d9163581f00a3e3" + " " + "absolute inset-0 pointer-events-none shadow-[inset_0_0_50px_rgba(0,0,0,0.1)]"
+                                            }, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                                lineNumber: 104,
+                                                columnNumber: 29
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                        lineNumber: 92,
+                                        columnNumber: 25
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                                lineNumber: 80,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                        lineNumber: 44,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/wedding/src/components/sections/Location.tsx",
+                lineNumber: 32,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                id: "5d9163581f00a3e3",
+                children: "@keyframes dash{to{stroke-dashoffset:-100px}}"
+            }, void 0, false, void 0, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/wedding/src/components/sections/Location.tsx",
+        lineNumber: 9,
+        columnNumber: 9
+    }, this);
+}
+_c = Location;
+var _c;
+__turbopack_context__.k.register(_c, "Location");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/wedding/src/components/sections/Contact.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Contact
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/phone.js [app-client] (ecmascript) <export default as Phone>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/mail.js [app-client] (ecmascript) <export default as Mail>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/instagram.js [app-client] (ecmascript) <export default as Instagram>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/message-circle.js [app-client] (ecmascript) <export default as MessageCircle>");
+"use client";
+;
+;
+;
+const contacts = [
+    {
+        name: "Singh Family",
+        relation: "Groom's Family",
+        phone: "+91 99999 88888",
+        whatsapp: "+91 99999 88888"
+    },
+    {
+        name: "Sharma Family",
+        relation: "Bride's Family",
+        phone: "+91 77777 66666",
+        whatsapp: "+91 77777 66666"
+    }
+];
+function Contact() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "relative py-24 overflow-hidden",
+        style: {
+            background: 'radial-gradient(circle at 50% 50%, #ffffff 0%, #f8f5f1 100%)'
+        },
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute top-20 left-10 opacity-[0.04] pointer-events-none text-charcoal",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
+                    className: "w-64 h-64 rotate-12"
+                }, void 0, false, {
+                    fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                    lineNumber: 27,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                lineNumber: 26,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute bottom-10 right-10 opacity-[0.04] pointer-events-none text-charcoal",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__["MessageCircle"], {
+                    className: "w-48 h-48 -rotate-12"
+                }, void 0, false, {
+                    fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                    lineNumber: 30,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                lineNumber: 29,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 pointer-events-none flex items-center justify-center opacity-[0.2]",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                    width: "600",
+                    height: "200",
+                    viewBox: "0 0 600 200",
+                    fill: "none",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                        d: "M 50 100 Q 300 0 550 100",
+                        stroke: "var(--royal-gold)",
+                        strokeWidth: "1",
+                        strokeDasharray: "4 8"
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                        lineNumber: 36,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                    lineNumber: 35,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                lineNumber: 34,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "container mx-auto px-4 relative z-10",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                        initial: {
+                            opacity: 0,
+                            y: 20
+                        },
+                        whileInView: {
+                            opacity: 1,
+                            y: 0
+                        },
+                        viewport: {
+                            once: true
+                        },
+                        className: "text-center mb-16",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "font-accent text-royal-gold uppercase tracking-[0.3em] text-sm mb-4 block",
+                                children: "Get in Touch"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                lineNumber: 52,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "font-script text-6xl text-charcoal mb-4",
+                                children: "Contact Info"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                lineNumber: 53,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "h-px w-24 bg-royal-gold/40 mx-auto"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                lineNumber: 54,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                        lineNumber: 46,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-col md:flex-row gap-12 justify-center max-w-5xl mx-auto",
+                        children: contacts.map((contact, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                initial: {
+                                    opacity: 0,
+                                    scale: 0.9
+                                },
+                                whileInView: {
+                                    opacity: 1,
+                                    scale: 1
+                                },
+                                viewport: {
+                                    once: true
+                                },
+                                transition: {
+                                    delay: index * 0.2
+                                },
+                                className: "w-full md:w-1/2 bg-white/60 backdrop-blur-md p-10 rounded-3xl border border-royal-gold/10 shadow-lg text-center group hover:bg-white transition-all duration-500",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "font-accent text-royal-gold tracking-widest text-sm mb-2 block uppercase",
+                                        children: contact.relation
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                        lineNumber: 67,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "font-display text-3xl text-charcoal mb-8 uppercase tracking-wide",
+                                        children: contact.name
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                        lineNumber: 68,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "space-y-6",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                href: `tel:${contact.phone}`,
+                                                className: "flex items-center justify-center gap-4 p-4 rounded-2xl bg-f8f5f1/50 border border-royal-gold/5 hover:border-royal-gold/20 transition-all group/call",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "w-10 h-10 rounded-full bg-royal-gold/10 flex items-center justify-center group-hover/call:bg-royal-gold group-hover/call:text-white transition-colors",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
+                                                            className: "w-4 h-4"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                                            lineNumber: 76,
+                                                            columnNumber: 41
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                                        lineNumber: 75,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "font-body text-charcoal",
+                                                        children: contact.phone
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                                        lineNumber: 78,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                                lineNumber: 71,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                href: `https://wa.me/${contact.whatsapp.replace(/\+/g, '').replace(/\s/g, '')}`,
+                                                target: "_blank",
+                                                rel: "noopener noreferrer",
+                                                className: "flex items-center justify-center gap-4 p-4 rounded-2xl bg-f8f5f1/50 border border-royal-gold/5 hover:border-royal-gold/20 transition-all group/wa",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "w-10 h-10 rounded-full bg-green-500/10 flex items-center justify-center group-hover/wa:bg-green-500 group-hover/wa:text-white transition-colors",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__["MessageCircle"], {
+                                                            className: "w-4 h-4"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                                            lineNumber: 88,
+                                                            columnNumber: 41
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                                        lineNumber: 87,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "font-body text-charcoal",
+                                                        children: "WhatsApp Message"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                                        lineNumber: 90,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                                lineNumber: 81,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                        lineNumber: 70,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, index, true, {
+                                fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                lineNumber: 59,
+                                columnNumber: 25
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                        lineNumber: 57,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                        initial: {
+                            opacity: 0
+                        },
+                        whileInView: {
+                            opacity: 1
+                        },
+                        viewport: {
+                            once: true
+                        },
+                        className: "mt-20 text-center",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "font-body text-brown/60 italic mb-6",
+                                children: "Can't wait to see you there!"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                lineNumber: 104,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex justify-center gap-6",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SocialLink, {
+                                        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__["Instagram"], {
+                                            className: "w-5 h-5"
+                                        }, void 0, false, {
+                                            fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                            lineNumber: 106,
+                                            columnNumber: 43
+                                        }, void 0),
+                                        href: "#"
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                        lineNumber: 106,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SocialLink, {
+                                        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
+                                            className: "w-5 h-5"
+                                        }, void 0, false, {
+                                            fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                            lineNumber: 107,
+                                            columnNumber: 43
+                                        }, void 0),
+                                        href: "#"
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                        lineNumber: 107,
+                                        columnNumber: 25
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                                lineNumber: 105,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                        lineNumber: 98,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+                lineNumber: 45,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+        lineNumber: 24,
+        columnNumber: 9
+    }, this);
+}
+_c = Contact;
+function SocialLink({ icon, href }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+        href: href,
+        className: "w-12 h-12 rounded-full border border-royal-gold/20 flex items-center justify-center text-royal-gold hover:bg-royal-gold hover:text-white transition-all",
+        children: icon
+    }, void 0, false, {
+        fileName: "[project]/wedding/src/components/sections/Contact.tsx",
+        lineNumber: 117,
+        columnNumber: 9
+    }, this);
+}
+_c1 = SocialLink;
+var _c, _c1;
+__turbopack_context__.k.register(_c, "Contact");
+__turbopack_context__.k.register(_c1, "SocialLink");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/wedding/src/components/sections/Footer.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Footer
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/heart.js [app-client] (ecmascript) <export default as Heart>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/instagram.js [app-client] (ecmascript) <export default as Instagram>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/facebook.js [app-client] (ecmascript) <export default as Facebook>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/mail.js [app-client] (ecmascript) <export default as Mail>");
+"use client";
+;
+;
+;
+function Footer() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
+        className: "relative py-24 px-4 overflow-hidden bg-gradient-to-b from-[#8b6f47/90] to-[#6d5d4b]",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 pointer-events-none opacity-[0.15] mix-blend-overlay bg-[url('https://www.transparenttextures.com/patterns/natural-paper.png')]"
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                lineNumber: 12,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 pointer-events-none",
+                children: Array.from({
+                    length: 20
+                }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                        className: "absolute text-white/40 text-[8px]",
+                        style: {
+                            top: `${Math.random() * 100}%`,
+                            left: `${Math.random() * 100}%`
+                        },
+                        animate: {
+                            opacity: [
+                                0.2,
+                                1,
+                                0.2
+                            ]
+                        },
+                        transition: {
+                            duration: 2 + Math.random() * 3,
+                            repeat: Infinity
+                        },
+                        children: "✦"
+                    }, i, false, {
+                        fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                        lineNumber: 17,
+                        columnNumber: 21
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                lineNumber: 15,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.1]",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                    className: "font-serif text-[40rem] text-white select-none",
+                    children: "S&V"
+                }, void 0, false, {
+                    fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                    lineNumber: 34,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                lineNumber: 33,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute top-0 left-0 w-full h-[8px] bg-royal-gold opacity-50 bg-[radial-gradient(circle,rgba(255,255,255,0.4)_2px,transparent_2px)] bg-[size:20px_20px]"
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                lineNumber: 38,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-4xl mx-auto text-center relative z-10",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                    initial: {
+                        opacity: 0,
+                        scale: 0.8
+                    },
+                    whileInView: {
+                        opacity: 1,
+                        scale: 1
+                    },
+                    viewport: {
+                        once: true
+                    },
+                    className: "flex flex-col items-center",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "font-accent text-royal-gold uppercase tracking-[0.5em] text-xs mb-8 block",
+                            children: "Forever & Always"
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                            lineNumber: 47,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "font-script text-7xl md:text-8xl text-white mb-6 drop-shadow-2xl",
+                            children: "Shubham & Varsha"
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                            lineNumber: 49,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-center gap-6 mb-12",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "h-[1px] w-20 bg-royal-gold/40"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                                    lineNumber: 52,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "font-display text-white/90 tracking-[0.3em] text-sm md:text-base",
+                                    children: "MARCH 07, 2026"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                                    lineNumber: 53,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "h-[1px] w-20 bg-royal-gold/40"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                                    lineNumber: 54,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                            lineNumber: 51,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                            animate: {
+                                scale: [
+                                    1,
+                                    1.1,
+                                    1
+                                ],
+                                rotate: [
+                                    0,
+                                    5,
+                                    -5,
+                                    0
+                                ]
+                            },
+                            transition: {
+                                duration: 4,
+                                repeat: Infinity,
+                                ease: "easeInOut"
+                            },
+                            className: "mb-12",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
+                                className: "h-12 w-12 text-royal-gold fill-royal-gold drop-shadow-[0_0_15px_rgba(212,163,115,0.5)]"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                                lineNumber: 62,
+                                columnNumber: 25
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                            lineNumber: 57,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex gap-10 mb-20",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SocialIcon, {
+                                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__["Instagram"], {
+                                        className: "h-6 w-6"
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                                        lineNumber: 66,
+                                        columnNumber: 43
+                                    }, void 0),
+                                    href: "#"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                                    lineNumber: 66,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SocialIcon, {
+                                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__["Facebook"], {
+                                        className: "h-6 w-6"
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                                        lineNumber: 67,
+                                        columnNumber: 43
+                                    }, void 0),
+                                    href: "#"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                                    lineNumber: 67,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(SocialIcon, {
+                                    icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
+                                        className: "h-6 w-6"
+                                    }, void 0, false, {
+                                        fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                                        lineNumber: 68,
+                                        columnNumber: 43
+                                    }, void 0),
+                                    href: "#"
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                                    lineNumber: 68,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                            lineNumber: 65,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "space-y-6",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "font-body text-white/70 italic text-xl max-w-lg mx-auto leading-relaxed",
+                                    children: '"And so the adventure begins... together, hand in hand, for the rest of our lives."'
+                                }, void 0, false, {
+                                    fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                                    lineNumber: 72,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "pt-12 flex flex-col items-center gap-4",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "h-px w-32 bg-gradient-to-r from-transparent via-royal-gold/30 to-transparent"
+                                        }, void 0, false, {
+                                            fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                                            lineNumber: 76,
+                                            columnNumber: 29
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "font-display text-[11px] text-white/40 uppercase tracking-[0.6em]",
+                                            children: "© 2026 Shubham & Varsha • Lucknow, India"
+                                        }, void 0, false, {
+                                            fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                                            lineNumber: 77,
+                                            columnNumber: 29
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                                    lineNumber: 75,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                            lineNumber: 71,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                    lineNumber: 41,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+                lineNumber: 40,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+        lineNumber: 10,
+        columnNumber: 9
+    }, this);
+}
+_c = Footer;
+function SocialIcon({ icon, href }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
+        href: href,
+        whileHover: {
+            y: -8,
+            scale: 1.15
+        },
+        className: "text-white hover:text-royal-gold transition-all duration-300 transform",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "p-4 bg-white/5 rounded-full border border-white/10 backdrop-blur-xl shadow-lg ring-1 ring-white/10",
+            children: icon
+        }, void 0, false, {
+            fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+            lineNumber: 95,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/wedding/src/components/sections/Footer.tsx",
+        lineNumber: 90,
+        columnNumber: 9
+    }, this);
+}
+_c1 = SocialIcon;
+var _c, _c1;
+__turbopack_context__.k.register(_c, "Footer");
+__turbopack_context__.k.register(_c1, "SocialIcon");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/wedding/src/lib/firebase.ts [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "db",
+    ()=>db
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/wedding/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$firebase$2f$app$2f$dist$2f$esm$2f$index$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/firebase/app/dist/esm/index.esm.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f40$firebase$2f$app$2f$dist$2f$esm$2f$index$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/@firebase/app/dist/esm/index.esm.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$firebase$2f$firestore$2f$dist$2f$esm$2f$index$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/firebase/firestore/dist/esm/index.esm.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/@firebase/firestore/dist/index.esm.js [app-client] (ecmascript)");
+;
+;
+const firebaseConfig = {
+    apiKey: __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_FIREBASE_API_KEY || "placeholder-api-key",
+    authDomain: __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || "placeholder-auth-domain",
+    projectId: __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "placeholder-project-id",
+    storageBucket: __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || "placeholder-storage-bucket",
+    messagingSenderId: __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || "placeholder-messaging-sender-id",
+    appId: __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_FIREBASE_APP_ID || "placeholder-app-id"
+};
+// Initialize Firebase
+const app = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f40$firebase$2f$app$2f$dist$2f$esm$2f$index$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getApps"])().length > 0 ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f40$firebase$2f$app$2f$dist$2f$esm$2f$index$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getApp"])() : (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f40$firebase$2f$app$2f$dist$2f$esm$2f$index$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["initializeApp"])(firebaseConfig);
+const db = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getFirestore"])(app);
+;
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/wedding/src/components/core/VideoBackground.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>VideoBackground
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/value/use-scroll.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/value/use-transform.mjs [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+function VideoBackground({ src, overlayColor = "var(--overlay-dark)", overlayOpacity = 0.4, speed = 0.7, parallax = true, blur = 0, brightness = 0.8 }) {
+    _s();
+    const videoRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const containerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const [shouldPlay, setShouldPlay] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const { scrollYProgress } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useScroll"])({
+        target: containerRef,
+        offset: [
+            "start end",
+            "end start"
+        ]
+    });
+    const y = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTransform"])(scrollYProgress, [
+        0,
+        1
+    ], [
+        "0%",
+        parallax ? "20%" : "0%"
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "VideoBackground.useEffect": ()=>{
+            const video = videoRef.current;
+            if (!video) return;
+            video.playbackRate = speed;
+            const observer = new IntersectionObserver({
+                "VideoBackground.useEffect": ([entry])=>{
+                    setShouldPlay(entry.isIntersecting);
+                }
+            }["VideoBackground.useEffect"], {
+                threshold: 0.1
+            });
+            if (containerRef.current) {
+                observer.observe(containerRef.current);
+            }
+            return ({
+                "VideoBackground.useEffect": ()=>observer.disconnect()
+            })["VideoBackground.useEffect"];
+        }
+    }["VideoBackground.useEffect"], [
+        speed
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "VideoBackground.useEffect": ()=>{
+            if (videoRef.current) {
+                if (shouldPlay) {
+                    videoRef.current.play().catch({
+                        "VideoBackground.useEffect": ()=>{
+                        // Autoplay might be blocked until interaction
+                        }
+                    }["VideoBackground.useEffect"]);
+                } else {
+                    videoRef.current.pause();
+                }
+            }
+        }
+    }["VideoBackground.useEffect"], [
+        shouldPlay
+    ]);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        ref: containerRef,
+        className: "absolute inset-0 overflow-hidden -z-10 pointer-events-none",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                style: {
+                    y,
+                    width: "100%",
+                    height: "120%",
+                    top: "-10%"
+                },
+                className: "absolute inset-0",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
+                    ref: videoRef,
+                    autoPlay: true,
+                    loop: true,
+                    muted: true,
+                    playsInline: true,
+                    className: "w-full h-full object-cover",
+                    style: {
+                        filter: `blur(${blur}px) brightness(${brightness})`
+                    },
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
+                        src: src,
+                        type: "video/mp4"
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/core/VideoBackground.tsx",
+                        lineNumber: 82,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/wedding/src/components/core/VideoBackground.tsx",
+                    lineNumber: 71,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/core/VideoBackground.tsx",
+                lineNumber: 70,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0",
+                style: {
+                    backgroundColor: overlayColor,
+                    opacity: overlayOpacity
+                }
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/core/VideoBackground.tsx",
+                lineNumber: 85,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/wedding/src/components/core/VideoBackground.tsx",
+        lineNumber: 69,
+        columnNumber: 9
+    }, this);
+}
+_s(VideoBackground, "/D9LapurGUZasGB7uvVBAQ5PkZs=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useScroll"],
+        __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$transform$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTransform"]
+    ];
+});
+_c = VideoBackground;
+var _c;
+__turbopack_context__.k.register(_c, "VideoBackground");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/wedding/src/components/sections/RSVP.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>RSVP
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/react-hook-form/dist/index.esm.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f40$hookform$2f$resolvers$2f$zod$2f$dist$2f$zod$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/@hookform/resolvers/zod/dist/zod.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$zod$2f$v4$2f$classic$2f$schemas$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/zod/v4/classic/schemas.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$src$2f$lib$2f$firebase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/src/lib/firebase.ts [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$firebase$2f$firestore$2f$dist$2f$esm$2f$index$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/firebase/firestore/dist/esm/index.esm.js [app-client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/@firebase/firestore/dist/index.esm.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$canvas$2d$confetti$2f$dist$2f$confetti$2e$module$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/node_modules/canvas-confetti/dist/confetti.module.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/circle-check.js [app-client] (ecmascript) <export default as CheckCircle2>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/heart.js [app-client] (ecmascript) <export default as Heart>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__ = __turbopack_context__.i("[project]/wedding/node_modules/lucide-react/dist/esm/icons/loader-circle.js [app-client] (ecmascript) <export default as Loader2>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$src$2f$components$2f$core$2f$VideoBackground$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wedding/src/components/core/VideoBackground.tsx [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const formSchema = __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$zod$2f$v4$2f$classic$2f$schemas$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["object"]({
+    name: __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$zod$2f$v4$2f$classic$2f$schemas$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["string"]().min(2, {
+        message: "Name must be at least 2 characters."
+    }),
+    email: __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$zod$2f$v4$2f$classic$2f$schemas$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["string"]().email({
+        message: "Invalid email address."
+    }),
+    phone: __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$zod$2f$v4$2f$classic$2f$schemas$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["string"]().optional(),
+    attendance: __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$zod$2f$v4$2f$classic$2f$schemas$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["enum"]([
+        "yes",
+        "no"
+    ]),
+    guests: __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$zod$2f$v4$2f$classic$2f$schemas$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["string"]().min(1, {
+        message: "Required"
+    }),
+    dietary: __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$zod$2f$v4$2f$classic$2f$schemas$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["string"]().optional(),
+    message: __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$zod$2f$v4$2f$classic$2f$schemas$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["string"]().optional()
+});
+function RSVP() {
+    _s();
+    const [isSubmitted, setIsSubmitted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [isLoading, setIsLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const { register, handleSubmit, formState: { errors }, reset } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useForm"])({
+        resolver: (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f40$hookform$2f$resolvers$2f$zod$2f$dist$2f$zod$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["zodResolver"])(formSchema),
+        defaultValues: {
+            guests: "1",
+            attendance: "yes"
+        }
+    });
+    const onSubmit = async (data)=>{
+        setIsLoading(true);
+        try {
+            await (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addDoc"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["collection"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$src$2f$lib$2f$firebase$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["db"], "rsvps"), {
+                ...data,
+                timestamp: (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f40$firebase$2f$firestore$2f$dist$2f$index$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["serverTimestamp"])()
+            });
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$canvas$2d$confetti$2f$dist$2f$confetti$2e$module$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+                particleCount: 150,
+                spread: 70,
+                origin: {
+                    y: 0.6
+                },
+                colors: [
+                    "#D4A5A5",
+                    "#D4AF37",
+                    "#E0C1B3",
+                    "#FFE8E8"
+                ]
+            });
+            setIsSubmitted(true);
+            reset();
+        } catch (error) {
+            console.error("Error saving RSVP:", error);
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$canvas$2d$confetti$2f$dist$2f$confetti$2e$module$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+                particleCount: 150,
+                spread: 70,
+                origin: {
+                    y: 0.6
+                },
+                colors: [
+                    "#D4A5A5",
+                    "#D4AF37",
+                    "#E0C1B3",
+                    "#FFE8E8"
+                ]
+            });
+            setIsSubmitted(true);
+        } finally{
+            setIsLoading(false);
+        }
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        id: "rsvp",
+        className: "bg-black py-24 px-4 relative overflow-hidden min-h-screen flex items-center",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$src$2f$components$2f$core$2f$VideoBackground$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                src: "https://assets.mixkit.co/videos/preview/mixkit-bokeh-of-lights-at-night-in-the-city-21245-large.mp4",
+                overlayColor: "var(--overlay-dark)",
+                overlayOpacity: 0.6,
+                blur: 4
+            }, void 0, false, {
+                fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                lineNumber: 76,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-4xl mx-auto w-full relative z-10",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                        initial: {
+                            opacity: 0,
+                            scale: 0.9
+                        },
+                        whileInView: {
+                            opacity: 1,
+                            scale: 1
+                        },
+                        viewport: {
+                            once: true
+                        },
+                        className: "text-center mb-12",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                className: "font-script text-7xl text-white mb-4 drop-shadow-lg",
+                                children: "Will You Join Us?"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                lineNumber: 90,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "font-display text-cream tracking-[0.2em] text-sm md:text-base drop-shadow-md",
+                                children: "PLEASE RSVP BY FEBRUARY 15, 2026"
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                lineNumber: 91,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                        lineNumber: 84,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                            initial: {
+                                opacity: 0,
+                                y: 30
+                            },
+                            whileInView: {
+                                opacity: 1,
+                                y: 0
+                            },
+                            viewport: {
+                                once: true
+                            },
+                            className: "relative bg-white/5 backdrop-blur-2xl rounded-3xl p-8 md:p-12 shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/20",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+                                mode: "wait",
+                                children: !isSubmitted ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].form, {
+                                    initial: {
+                                        opacity: 1
+                                    },
+                                    exit: {
+                                        opacity: 0,
+                                        x: -20
+                                    },
+                                    onSubmit: handleSubmit(onSubmit),
+                                    className: "space-y-6",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "grid md:grid-cols-2 gap-6",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "space-y-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                            className: "font-body text-sm font-semibold text-cream",
+                                                            children: "YOUR NAME *"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                            lineNumber: 112,
+                                                            columnNumber: 45
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                            ...register("name"),
+                                                            className: "w-full px-4 py-4 rounded-xl bg-white/10 border border-white/20 text-white focus:border-gold outline-none transition-all font-body backdrop-blur-md",
+                                                            placeholder: "Full Name"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                            lineNumber: 113,
+                                                            columnNumber: 45
+                                                        }, this),
+                                                        errors.name && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-red-400 text-xs mt-1",
+                                                            children: errors.name.message
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                            lineNumber: 118,
+                                                            columnNumber: 61
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                    lineNumber: 111,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "space-y-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                            className: "font-body text-sm font-semibold text-cream",
+                                                            children: "EMAIL ADDRESS *"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                            lineNumber: 121,
+                                                            columnNumber: 45
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                            ...register("email"),
+                                                            className: "w-full px-4 py-4 rounded-xl bg-white/10 border border-white/20 text-white focus:border-gold outline-none transition-all font-body backdrop-blur-md",
+                                                            placeholder: "email@example.com"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                            lineNumber: 122,
+                                                            columnNumber: 45
+                                                        }, this),
+                                                        errors.email && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-red-400 text-xs mt-1",
+                                                            children: errors.email.message
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                            lineNumber: 127,
+                                                            columnNumber: 62
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                    lineNumber: 120,
+                                                    columnNumber: 41
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                            lineNumber: 110,
+                                            columnNumber: 37
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "grid md:grid-cols-2 gap-6",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "space-y-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                            className: "font-body text-sm font-semibold text-cream",
+                                                            children: "PHONE NUMBER"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                            lineNumber: 133,
+                                                            columnNumber: 45
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                            ...register("phone"),
+                                                            className: "w-full px-4 py-4 rounded-xl bg-white/10 border border-white/20 text-white focus:border-gold outline-none transition-all font-body backdrop-blur-md",
+                                                            placeholder: "+91-XXXXX-XXXXX"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                            lineNumber: 134,
+                                                            columnNumber: 45
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                    lineNumber: 132,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "space-y-2",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                            className: "font-body text-sm font-semibold text-cream",
+                                                            children: "NUMBER OF GUESTS"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                            lineNumber: 141,
+                                                            columnNumber: 45
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                                            ...register("guests"),
+                                                            className: "w-full px-4 py-4 rounded-xl bg-white/10 border border-white/20 text-white focus:border-gold outline-none transition-all font-body backdrop-blur-md appearance-none",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                    className: "bg-charcoal",
+                                                                    value: "1",
+                                                                    children: "1 Guest"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                                    lineNumber: 146,
+                                                                    columnNumber: 49
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                    className: "bg-charcoal",
+                                                                    value: "2",
+                                                                    children: "2 Guests"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                                    lineNumber: 147,
+                                                                    columnNumber: 49
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                    className: "bg-charcoal",
+                                                                    value: "3",
+                                                                    children: "3 Guests"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                                    lineNumber: 148,
+                                                                    columnNumber: 49
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                    className: "bg-charcoal",
+                                                                    value: "4",
+                                                                    children: "4 Guests"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                                    lineNumber: 149,
+                                                                    columnNumber: 49
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                    className: "bg-charcoal",
+                                                                    value: "5+",
+                                                                    children: "5+ Guests"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                                    lineNumber: 150,
+                                                                    columnNumber: 49
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                            lineNumber: 142,
+                                                            columnNumber: 45
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                    lineNumber: 140,
+                                                    columnNumber: 41
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                            lineNumber: 131,
+                                            columnNumber: 37
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "space-y-4",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                    className: "font-body text-sm font-semibold text-cream block",
+                                                    children: "WILL YOU ATTEND? *"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                    lineNumber: 156,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "flex gap-8",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                            className: "flex items-center gap-3 cursor-pointer group",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                                    type: "radio",
+                                                                    value: "yes",
+                                                                    ...register("attendance"),
+                                                                    className: "hidden peer"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                                    lineNumber: 159,
+                                                                    columnNumber: 49
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "w-6 h-6 rounded-full border-2 border-white/30 peer-checked:border-gold peer-checked:bg-gold transition-all shadow-glow-gold"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                                    lineNumber: 165,
+                                                                    columnNumber: 49
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "font-body text-cream/70 group-hover:text-white transition-colors",
+                                                                    children: "Joyfully Accept"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                                    lineNumber: 166,
+                                                                    columnNumber: 49
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                            lineNumber: 158,
+                                                            columnNumber: 45
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                            className: "flex items-center gap-3 cursor-pointer group",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                                    type: "radio",
+                                                                    value: "no",
+                                                                    ...register("attendance"),
+                                                                    className: "hidden peer"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                                    lineNumber: 169,
+                                                                    columnNumber: 49
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "w-6 h-6 rounded-full border-2 border-white/30 peer-checked:border-gold peer-checked:bg-gold transition-all shadow-glow-gold"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                                    lineNumber: 175,
+                                                                    columnNumber: 49
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "font-body text-cream/70 group-hover:text-white transition-colors",
+                                                                    children: "Regretfully Decline"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                                    lineNumber: 176,
+                                                                    columnNumber: 49
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                            lineNumber: 168,
+                                                            columnNumber: 45
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                    lineNumber: 157,
+                                                    columnNumber: 41
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                            lineNumber: 155,
+                                            columnNumber: 37
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "space-y-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                    className: "font-body text-sm font-semibold text-cream",
+                                                    children: "DIETARY RESTRICTIONS"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                    lineNumber: 182,
+                                                    columnNumber: 41
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
+                                                    ...register("dietary"),
+                                                    className: "w-full px-4 py-4 rounded-xl bg-white/10 border border-white/20 text-white focus:border-gold outline-none transition-all font-body min-h-[100px] backdrop-blur-md",
+                                                    placeholder: "Any allergies or special requirements?"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                    lineNumber: 183,
+                                                    columnNumber: 41
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                            lineNumber: 181,
+                                            columnNumber: 37
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+                                            whileHover: {
+                                                scale: 1.02
+                                            },
+                                            whileTap: {
+                                                scale: 0.98
+                                            },
+                                            type: "submit",
+                                            disabled: isLoading,
+                                            className: "w-full py-5 bg-gradient-to-r from-dusty-rose via-rose-gold to-gold text-white rounded-xl font-display text-xl tracking-[0.2em] shadow-2xl flex items-center justify-center gap-3 disabled:opacity-70 transition-all border border-white/10",
+                                            children: isLoading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__["Loader2"], {
+                                                className: "h-6 w-6 animate-spin"
+                                            }, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                lineNumber: 198,
+                                                columnNumber: 45
+                                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                                children: [
+                                                    "SEND RSVP ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
+                                                        className: "h-5 w-5 fill-white"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                        lineNumber: 200,
+                                                        columnNumber: 57
+                                                    }, this)
+                                                ]
+                                            }, void 0, true)
+                                        }, void 0, false, {
+                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                            lineNumber: 190,
+                                            columnNumber: 37
+                                        }, this)
+                                    ]
+                                }, "form", true, {
+                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                    lineNumber: 103,
+                                    columnNumber: 33
+                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                                    initial: {
+                                        opacity: 0,
+                                        scale: 0.8
+                                    },
+                                    animate: {
+                                        opacity: 1,
+                                        scale: 1
+                                    },
+                                    className: "text-center py-12",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "w-24 h-24 bg-gold/20 text-gold rounded-full flex items-center justify-center mx-auto mb-8 border border-gold/30 shadow-glow-gold",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__["CheckCircle2"], {
+                                                className: "h-12 w-12"
+                                            }, void 0, false, {
+                                                fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                                lineNumber: 212,
+                                                columnNumber: 41
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                            lineNumber: 211,
+                                            columnNumber: 37
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "font-display text-4xl text-white mb-4 drop-shadow-lg",
+                                            children: "Thank You!"
+                                        }, void 0, false, {
+                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                            lineNumber: 214,
+                                            columnNumber: 37
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "font-body text-cream text-lg max-w-md mx-auto mb-10 leading-relaxed italic",
+                                            children: '"Your response has been received. We can\'t wait to celebrate this magical day with you!"'
+                                        }, void 0, false, {
+                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                            lineNumber: 215,
+                                            columnNumber: 37
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+                                            onClick: ()=>setIsSubmitted(false),
+                                            className: "text-gold font-body text-sm underline tracking-widest hover:text-white transition-colors",
+                                            children: "Update Response"
+                                        }, void 0, false, {
+                                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                            lineNumber: 218,
+                                            columnNumber: 37
+                                        }, this)
+                                    ]
+                                }, "success", true, {
+                                    fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                    lineNumber: 205,
+                                    columnNumber: 33
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                                lineNumber: 101,
+                                columnNumber: 25
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                            lineNumber: 95,
+                            columnNumber: 21
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                        lineNumber: 94,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+                lineNumber: 83,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/wedding/src/components/sections/RSVP.tsx",
+        lineNumber: 75,
+        columnNumber: 9
+    }, this);
+}
+_s(RSVP, "5Z3dU2LmQtpJo7Drt07PXQQH2Bo=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$wedding$2f$node_modules$2f$react$2d$hook$2d$form$2f$dist$2f$index$2e$esm$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useForm"]
+    ];
+});
+_c = RSVP;
+var _c;
+__turbopack_context__.k.register(_c, "RSVP");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+]);
+
+//# sourceMappingURL=wedding_src_b6512b86._.js.map
