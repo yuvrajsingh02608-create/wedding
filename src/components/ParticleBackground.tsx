@@ -17,7 +17,6 @@ export default function ParticleBackground() {
     }, []);
 
     const particlesLoaded = async (container?: Container): Promise<void> => {
-        // console.log(container);
     };
 
     if (!init) return null;

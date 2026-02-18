@@ -63,22 +63,6 @@ export default function Hero() {
                     <div className="mt-4 h-[2px] w-32 bg-gradient-to-r from-transparent via-royal-gold to-transparent" />
                 </motion.div>
 
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 1.5, duration: 1 }}
-                    className="flex flex-col md:flex-row gap-8 mt-16"
-                >
-                    <a href="/invitation" className="inline-block">
-                        <motion.button
-                            whileHover={{ scale: 1.05, y: -2 }}
-                            whileTap={{ scale: 0.95 }}
-                            className="px-12 py-5 bg-royal-gold text-white rounded-full font-display text-sm tracking-[0.3em] shadow-[0_10px_30px_rgba(197,160,89,0.3)] hover:shadow-[0_15px_40px_rgba(197,160,89,0.5)] transition-all flex items-center gap-3"
-                        >
-                            VIEW LIVE INVITE <Sparkles className="h-4 w-4" />
-                        </motion.button>
-                    </a>
-                </motion.div>
 
                 {/* Scroll Indicator */}
                 <motion.div

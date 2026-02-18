@@ -14,7 +14,6 @@ export default function MusicPlayer() {
         setMounted(true);
 
         const startMusic = () => {
-            console.log("Interaction detected, starting music...");
             setIsPlaying(true);
             setIsMuted(false);
             window.removeEventListener("click", startMusic);
@@ -54,8 +53,6 @@ export default function MusicPlayer() {
                 volume={0.5}
                 width="100%"
                 height="100%"
-                onStart={() => console.log("MusicPlayer: Playback started!")}
-                onPlay={() => console.log("MusicPlayer: Playing...")}
                 onError={(e) => console.error("MusicPlayer Error:", e)}
             />
         </div>

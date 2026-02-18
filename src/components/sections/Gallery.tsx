@@ -11,6 +11,10 @@ const photos = [
     "/assets/gallery/gallery-3.jpeg",
     "/assets/gallery/gallery-4.jpeg",
     "/assets/gallery/gallery-5.jpeg",
+    "/assets/gallery/gallery-6.jpeg",
+    "/assets/gallery/gallery-7.jpeg",
+    "/assets/gallery/gallery-8.jpeg",
+    "/assets/gallery/gallery-9.jpeg",
 ];
 
 export default function Gallery() {
