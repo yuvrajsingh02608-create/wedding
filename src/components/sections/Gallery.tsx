@@ -6,11 +6,9 @@ import Image from "next/image";
 import { X, ChevronLeft, ChevronRight, Maximize2, Heart } from "lucide-react";
 
 const photos = [
-    "/assets/gallery/gallery-1.jpeg",
     "/assets/gallery/gallery-2.jpeg",
     "/assets/gallery/gallery-3.jpeg",
     "/assets/gallery/gallery-4.jpeg",
-    "/assets/gallery/gallery-5.jpeg",
     "/assets/gallery/gallery-6.jpeg",
     "/assets/gallery/gallery-7.jpeg",
     "/assets/gallery/gallery-8.jpeg",
