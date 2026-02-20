@@ -61,13 +61,13 @@ export default function Location() {
                                     <MapPin className="w-5 h-5 text-royal-gold" />
                                 </div>
                                 <p className="font-body text-brown text-lg">
-                                    Nakshatra Lawns and Banquet Hall, Gomti Nagar, Lucknow, Uttar Pradesh 226010
+                                    V23C+6RM Lucknow, Uttar Pradesh<br />26°51&apos;11.1&quot;N 81°01&apos;19.4&quot;E
                                 </p>
                             </div>
                         </div>
 
                         <a
-                            href="https://maps.app.goo.gl/PppAKiy91CkbBQGe9"
+                            href="https://www.google.com/maps/dir//26.8530833,81.0220556"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-3 px-8 py-4 bg-charcoal text-white rounded-full font-body text-sm tracking-widest hover:bg-brown transition-colors group"
@@ -92,7 +92,7 @@ export default function Location() {
                         <div className="w-full h-full overflow-hidden rounded-2xl shadow-inner border-4 border-white relative">
                             {/* Placeholder Map - In real use, embed Google Maps iframe here */}
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1779.6274488!2d81.0123456!3d26.8765432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDUyJzM1LjUiTiA4McKwMDAnNDQuNCJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3559.431665420177!2d81.0220556!3d26.8530833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                                 width="100%"
                                 height="100%"
                                 style={{ border: 0, filter: 'grayscale(0.3) contrast(1.1) brightness(0.9)' }}

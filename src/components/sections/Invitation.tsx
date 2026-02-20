@@ -52,7 +52,7 @@ export default function Invitation() {
                             <div className="text-center group">
                                 <span className="font-accent text-xs tracking-[0.3em] text-royal-gold uppercase mb-4 block group-hover:scale-110 transition-transform">Where</span>
                                 <div className="h-px w-8 bg-royal-gold/30 mx-auto mb-4" />
-                                <p className="font-display text-lg text-charcoal tracking-[0.1em]">Nakshatra Lawns and Banquet Hall,<br />Gomti Nagar, Lucknow</p>
+                                <p className="font-display text-lg text-charcoal tracking-[0.1em]">V23C+6RM Lucknow, Uttar Pradesh<br />26°51&apos;11.1&quot;N 81°01&apos;19.4&quot;E</p>
                             </div>
 
                             <div className="w-px h-16 bg-royal-gold/20 hidden md:block" />
@@ -65,7 +65,7 @@ export default function Invitation() {
                         </div>
 
                         <motion.a
-                            href="https://maps.app.goo.gl/PppAKiy91CkbBQGe9"
+                            href="https://www.google.com/maps/dir//26.8530833,81.0220556"
                             target="_blank"
                             rel="noopener noreferrer"
                             whileHover={{ scale: 1.05 }}
